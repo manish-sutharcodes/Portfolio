@@ -625,3 +625,13 @@ body {
     cursor: grab;
   }
 }
+
+.contact-icon img {
+  transition: 0.3s;
+  filter: brightness(0.9);
+}
+
+.contact-icon img:hover {
+  transform: scale(1.15);
+  filter: brightness(1.2);
+}
